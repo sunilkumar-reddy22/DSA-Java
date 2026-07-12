@@ -2,7 +2,7 @@ package Bubble_sort;
 import java.util.Arrays;
 public class Sorting {
     public static void main(String[] args) {
-       int [] nums = {3,4,5,1,2};
+       int [] nums = {10,20,20,30,10};
       int [] ans = Sort(nums);
         System.out.println(Arrays.toString(ans));
     }
