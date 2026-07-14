@@ -2,7 +2,7 @@ package Bubble_sort;
 import java.util.Arrays;
 public class SelectionSort {
     public static void main(String[] args) {
-        int [] nums = {5,-,4,3,1,2};
+        int [] nums = {5,-4,3,1,2};
        int [] ans = sort(nums);
         System.out.println(Arrays.toString(ans));
     }
