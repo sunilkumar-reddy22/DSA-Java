@@ -1,6 +1,6 @@
 package Bubble_sort;
 import java.util.Arrays;
-public class Selectionsort {
+public class SelectionSort {
     public static void main(String[] args) {
         int [] nums = {5,-,4,3,1,2};
        int [] ans = sort(nums);
