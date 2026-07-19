@@ -26,7 +26,7 @@ public class FirstMissingPositive {
         return nums.length;
     }
     static void swap(int [] nums,int first,int second){
-        int temp = nums[first];
+        int temp = nums[first]; //missing postive num.
         nums[first] = nums[second];
         nums[second] = temp;
     }
