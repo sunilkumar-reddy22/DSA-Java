@@ -7,7 +7,7 @@ public class Performance {
             //we are printing the a to z and converting ascii values to characters.
             char ch = (char)('a' + i);
            // System.out.print(ch  + " , ");
-            series = series + ch;  //here it is doing concatination.
+            series = series + ch;
         }
         System.out.println(series);
     }
