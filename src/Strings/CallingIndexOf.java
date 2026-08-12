@@ -10,5 +10,7 @@ public class CallingIndexOf {
       int ans =  sb.lastIndexOf("u");
         System.out.println(ans);
         System.out.println(sb.toString());
+        int res = sb.indexOf("u");
+        System.out.println(res);
     }
 }
