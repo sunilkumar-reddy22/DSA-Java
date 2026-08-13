@@ -1,18 +1,16 @@
 package Pattren_Stars;
 
-public class Pattren5 {
+public class Pattren28 {
     public static void main(String[] args) {
-        int n = 10;
-        Star(n);
+        int n = 5;
+        Diamond(n);
     }
-    static void Star(int n){
+    static void Diamond(int n){
         for(int row = 0; row < 2 * n; row++){
-            int totalColsInRow;
-            if(row < n){
-                totalColsInRow = row + 1;
-            }
-            else{
-                totalColsInRow = 2 * n - row - 1;
+            int totalColsInRow = row > n ? 2 * n - row : row;
+            int nOfSpaces = n -  totalColsInRow;
+            for(int s = 0; s < nOfSpaces; s++) {
+                System.out.print(" ");
             }
             for(int col = 0; col < totalColsInRow; col++){
                 System.out.print("* ");
