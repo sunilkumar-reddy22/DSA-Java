@@ -2,7 +2,7 @@ package Pattren_Stars;
 
 public class Pattren5 {
     public static void main(String[] args) {
-        int n = 10;
+        int n = 5;
         Star(n);
     }
     static void Star(int n){
