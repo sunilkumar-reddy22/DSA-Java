@@ -12,7 +12,7 @@ public class Pattren3 {
               totalColsInRow = row +  1;
           }
           else{
-              totalColsInRow =  2 * n - row - 1; //totalrows -  current  row -1col down.
+              totalColsInRow =  2 * n - row -1; //totalrows -  current  row -1col down.
           }
           for(int j = 0; j < totalColsInRow; j++){
               System.out.print("* ");
