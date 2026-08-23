@@ -16,5 +16,7 @@ public class Practice {
         String name1 = new String("sunil");
         System.out.println(name == name1);
         System.out.println(name.equals(name1));//here the .equals is an method for strings it wont care about what is pointing to ehat it checks the values are == are!
+        System.out.println(name.charAt(0));
     }
 }
+
