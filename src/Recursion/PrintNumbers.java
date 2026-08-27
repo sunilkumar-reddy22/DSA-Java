@@ -9,7 +9,7 @@ public class PrintNumbers {
              System.out.println(n);
              return;
          }
-        System.out.println(n);
+        System.out.print(n + " ");
         print(n + 1);
     }
 }
