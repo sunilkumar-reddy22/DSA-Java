@@ -11,6 +11,7 @@ public class Uniquefour {
         //enhanced for each loop.
         for(int n : ans){
             unique = unique ^ n;
+            //
         }
         return unique;
     }
