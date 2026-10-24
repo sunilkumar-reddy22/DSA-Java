@@ -2,7 +2,7 @@ package Math_Bitwise_Operators;
 
 public class Even {
     public static void main(String[] args) {
-        int n = 71;
+        int n = 2;
        boolean ans = iseven(n);
         System.out.println(ans);
     }
