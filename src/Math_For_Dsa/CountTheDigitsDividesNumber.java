@@ -8,11 +8,11 @@ public class CountTheDigitsDividesNumber {
     }
     static int Find(int num){
         int count = 0;
+        int orignal = num;
         while(num > 0){
             int val = 0;
-            int temp = num;
             val = num % 10;
-            if(temp % val == 0){
+            if(orignal % val == 0){
                 count++;
             }
             //remove last digit;
