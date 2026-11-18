@@ -12,8 +12,10 @@ public class Easy {
           // System.out.println(n);
            return;
        }
-        System.out.println(n);
+       // System.out.println(n);
        //every rotation it reduces the number.
        print(n-1);
+       //reversing the 1 to n with printing while stack is deleting the data
+        System.out.print(n + " ");
     }
 }
