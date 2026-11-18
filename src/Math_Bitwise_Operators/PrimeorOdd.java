@@ -2,7 +2,7 @@ package Math_Bitwise_Operators;
 
 public class PrimeorOdd {
     public static void main(String[] args) {
-        int n = 77;
+        int n = 63;
        boolean ans = isodd(n);
         System.out.println(ans);
     }
