@@ -4,7 +4,7 @@ public class ReverseFunction {
     public static void main(String[] args) {
         int n = 5;
         funrev(n);
-        merge(n);
+       // merge(n);
     }
     static void funrev(int n){
         //print nums 5 to 1.
@@ -15,6 +15,7 @@ public class ReverseFunction {
         //recursive function
         System.out.print(n + " ");
         funrev(n-1); //this is called tail recursion
+        System.out.print(n + " ");
     }
     static void merge(int n) {
         //print nums 5 to 1.
