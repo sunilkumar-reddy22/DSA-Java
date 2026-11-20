@@ -10,7 +10,7 @@ public class concept {
         if(n == 0){
             return;
         }
-        System.out.print(n);
+        System.out.println(n);
         find(--n); //n-- = n - 1; I think it prints 5 4 3 2 1.
         //gave stack overflow error cause n-- passes the n value not evaluated val.
         //--n does the job upfront
