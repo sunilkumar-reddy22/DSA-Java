@@ -2,7 +2,7 @@ package Math_For_Dsa;
 
 public class Factors {
     public static void main(String[] args) {
-        int n = 20;
+        int n = 25;
        // divisor(n);
         factors(n);
     }
